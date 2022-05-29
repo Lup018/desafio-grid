@@ -29,16 +29,27 @@ body {
 }
 
 /*Menu's item*/
-.menu {
+.navbar {
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     grid-area: menu;
-    padding: 0;
     margin: 0;
 }
 
+.navbar h3 {
+    /*border: 1px solid black;*/
+    text-align: center;
+    
+}
 .list {
+    /*border:  1px solid black;*/
     list-style: none;
     text-align: start;
     color: black;
+    padding: 0px;
 }
 
 /*Main's item*/
@@ -83,4 +94,3 @@ button {
     background-color: slategray;
     color: white;
 }
-
